@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <parameter name="feedbackMsg" value="Thanks for your feedback."/>
+  <parameter name="url" value="https://support.apple.com"/>
+  <parameter name="expectedMessage" value="iPhone Battery and Performance"/>
+  <parameter name="browserType" value="CH"/>
+  <test name="Apple Support FeedBack Tests(failed)">
+    <parameter name="feedbackMsg" value="Thanks for your feedback."/>
+    <parameter name="url" value="https://support.apple.com"/>
+    <parameter name="expectedMessage" value="iPhone Battery and Performance"/>
+    <parameter name="browserType" value="CH"/>
+    <classes>
+      <class name="org.apple.iphone.support.tests.AppleSupportTests">
+        <methods>
+          <include name="feedBackFlowTest"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- org.apple.iphone.support.tests.AppleSupportTests -->
+    </classes>
+  </test> <!-- Apple Support FeedBack Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

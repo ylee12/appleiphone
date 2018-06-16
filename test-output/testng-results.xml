@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9396" started-at="2018-06-16T22:59:26Z" finished-at="2018-06-16T22:59:35Z">
+    <groups>
+    </groups>
+    <test name="Apple Support FeedBack Tests" duration-ms="4479" started-at="2018-06-16T22:59:26Z" finished-at="2018-06-16T22:59:30Z">
+      <class name="org.apple.iphone.support.tests.AppleSupportTests">
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.apple.iphone.support.tests.AppleSupportTests@39c0f4a]" name="invokeBrowser" is-config="true" duration-ms="3219" started-at="2018-06-16T22:59:26Z" finished-at="2018-06-16T22:59:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://support.apple.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="feedBackFlowTest(java.lang.String, java.lang.String)[pri:0, instance:org.apple.iphone.support.tests.AppleSupportTests@39c0f4a]" name="feedBackFlowTest" duration-ms="1246" started-at="2018-06-16T22:59:29Z" finished-at="2018-06-16T22:59:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone Battery and Performance]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thanks for your feedback.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedBackFlowTest -->
+      </class> <!-- org.apple.iphone.support.tests.AppleSupportTests -->
+    </test> <!-- Apple Support FeedBack Tests -->
+    <test name="Chrome Browser Tests" duration-ms="4883" started-at="2018-06-16T22:59:30Z" finished-at="2018-06-16T22:59:35Z">
+      <class name="org.apple.iphone.support.tests.AppleSupportTests">
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.apple.iphone.support.tests.AppleSupportTests@5700d6b1]" name="invokeBrowser" is-config="true" duration-ms="3086" started-at="2018-06-16T22:59:30Z" finished-at="2018-06-16T22:59:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://support.apple.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="feedBackFlowTest(java.lang.String, java.lang.String)[pri:0, instance:org.apple.iphone.support.tests.AppleSupportTests@5700d6b1]" name="feedBackFlowTest" duration-ms="1795" started-at="2018-06-16T22:59:34Z" finished-at="2018-06-16T22:59:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone Battery and Performance]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thanks for your feedback.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedBackFlowTest -->
+      </class> <!-- org.apple.iphone.support.tests.AppleSupportTests -->
+    </test> <!-- Chrome Browser Tests -->
+  </suite> <!-- Suite -->
+</testng-results>

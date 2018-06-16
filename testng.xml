@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+  <test name="Apple Support FeedBack Tests">
+  <parameter name="browserType" value="CH" />
+  <parameter name="url" value="https://support.apple.com" />
+  <parameter name="expectedMessage" value="iPhone Battery and Performance" />
+  <parameter name="feedbackMsg" value="Thanks for your feedback." />
+  
+  <classes>
+  	<class name="org.apple.iphone.support.tests.AppleSupportTests" />
+  </classes>  
+  </test> <!-- Test -->
+  
+  <test name="Chrome Browser Tests">
+  <parameter name="browserType" value="FF" />
+  <parameter name="url" value="https://support.apple.com" />
+  <parameter name="expectedMessage" value="iPhone Battery and Performance" />
+  <parameter name="feedbackMsg" value="Thanks for your feedback." />
+  
+  <classes>
+  	<class name="org.apple.iphone.support.tests.AppleSupportTests" />
+  </classes>  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
