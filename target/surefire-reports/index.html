@@ -53,7 +53,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -99,6 +99,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.apple.iphone.support.tests.AppleSupportTests" hash-for-method="feedBackFlowTest(iPhone Battery and Performance, Thanks for your feedback.)">feedBackFlowTest(iPhone Battery and Performance, Thanks for your feedback.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.apple.iphone.support.tests.AppleSupportTests" hash-for-method="feedBackFlowTest(iPhone Battery and Performance, Thanks for your feedback.)">feedBackFlowTest(iPhone Battery and Performance, Thanks for your feedback.)</a> <!-- method navigator-link -->
@@ -130,12 +135,20 @@
                   <span class="parameters">(iPhone Battery and Performance, Thanks for your feedback.)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="feedBackFlowTest(iPhone Battery and Performance, Thanks for your feedback.)">
+                  </a> <!-- feedBackFlowTest(iPhone Battery and Performance, Thanks for your feedback.) -->
+                  <span class="method-name">feedBackFlowTest</span>
+                  <span class="parameters">(iPhone Battery and Performance, Thanks for your feedback.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/ylee/Downloads/appleiphone/testng.xml</span>
+            <span class="header-content">/Users/ylee/eclipse-workspace/appleiphone/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -151,6 +164,15 @@
       &lt;class name=&quot;org.apple.iphone.support.tests.AppleSupportTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Apple Support FeedBack Tests --&gt;
+  &lt;test name=&quot;Chrome Browser Tests&quot;&gt;
+    &lt;parameter name=&quot;feedbackMsg&quot; value=&quot;Thanks for your feedback.&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://support.apple.com&quot;/&gt;
+    &lt;parameter name=&quot;expectedMessage&quot; value=&quot;iPhone Battery and Performance&quot;/&gt;
+    &lt;parameter name=&quot;browserType&quot; value=&quot;FF&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.apple.iphone.support.tests.AppleSupportTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome Browser Tests --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -163,6 +185,9 @@
             <ul>
               <li>
                 <span class="test-name">Apple Support FeedBack Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Chrome Browser Tests (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -188,16 +213,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'feedBackFlowTest')
 data.setCell(0, 2, 'org.apple.iphone.support.tests.AppleSupportTests')
-data.setCell(0, 3, 2495);
+data.setCell(0, 3, 2384);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'feedBackFlowTest')
+data.setCell(1, 2, 'org.apple.iphone.support.tests.AppleSupportTests')
+data.setCell(1, 3, 1772);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -230,7 +259,15 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">feedBackFlowTest(iPhone Battery and Performance, Thanks for your feedback.)</span>
-                <span class="method-start">2137 ms</span>
+                <span class="method-start">2112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test before">
+                <span class="method-name">invokeBrowser(FF, https://support.apple.com)</span>
+                <span class="method-start">4508 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">feedBackFlowTest(iPhone Battery and Performance, Thanks for your feedback.)</span>
+                <span class="method-start">7537 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

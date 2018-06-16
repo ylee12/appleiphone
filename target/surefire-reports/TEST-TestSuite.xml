@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="2.495" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="2.383" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.172-b11"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/ylee/Downloads/appleiphone"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ylee/eclipse-workspace/appleiphone"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,10 +16,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/ylee/Downloads/appleiphone"/>
+    <property name="user.dir" value="/Users/ylee/eclipse-workspace/appleiphone"/>
     <property name="java.runtime.version" value="1.8.0_172-b11"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="basedir" value="/Users/ylee/Downloads/appleiphone"/>
+    <property name="basedir" value="/Users/ylee/eclipse-workspace/appleiphone"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.io.tmpdir" value="/var/folders/m2/_xzpzlvs3gq3tk9dqzcx7lpr0000gn/T/"/>
@@ -29,7 +29,7 @@
     <property name="classworlds.conf" value="/usr/local/apache-maven-3.5.2/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/ylee/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="surefire.test.class.path" value="/Users/ylee/Downloads/appleiphone/target/test-classes:/Users/ylee/Downloads/appleiphone/target/classes:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/ylee/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/ylee/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ylee/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/ylee/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ylee/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/ylee/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/ylee/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/ylee/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/ylee/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/ylee/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/ylee/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/ylee/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ylee/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ylee/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/ylee/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/ylee/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/Users/ylee/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/ylee/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/ylee/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/ylee/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/ylee/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/ylee/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.18.1/surefire-testng-utils-2.18.1.jar:/Users/ylee/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.18.1/surefire-grouper-2.18.1.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/ylee/eclipse-workspace/appleiphone/target/test-classes:/Users/ylee/eclipse-workspace/appleiphone/target/classes:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/ylee/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/ylee/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/ylee/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ylee/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/ylee/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ylee/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/ylee/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/ylee/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/ylee/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/ylee/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/ylee/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/ylee/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/ylee/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ylee/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ylee/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/ylee/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/ylee/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/Users/ylee/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/ylee/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/ylee/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/ylee/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/ylee/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/ylee/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.18.1/surefire-testng-utils-2.18.1.jar:/Users/ylee/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.18.1/surefire-grouper-2.18.1.jar:"/>
     <property name="maven.conf" value="/usr/local/apache-maven-3.5.2/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -42,6 +42,7 @@
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
+    <property name="webdriver.gecko.driver" value="/Users/ylee/selenium-web-browser-dvr-mac/geckodriver"/>
     <property name="user.name" value="ylee"/>
     <property name="java.class.path" value="/usr/local/apache-maven-3.5.2/boot/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
@@ -67,5 +68,6 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="feedBackFlowTest" classname="org.apple.iphone.support.tests.AppleSupportTests" time="2.495"/>
+  <testcase name="feedBackFlowTest" classname="org.apple.iphone.support.tests.AppleSupportTests" time="2.383"/>
+  <testcase name="feedBackFlowTest" classname="org.apple.iphone.support.tests.AppleSupportTests" time="1.772"/>
 </testsuite>
